@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.header {
+    height: 69px;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    margin: 0 auto;
+    z-index: 222;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: .9;
+}
+
+
+.logo img {
+    height: 50px;
+}
+
+.nav, .logo {
+    display: flex;
+    align-items: center;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background: url("./images/img-mission-background.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#background {
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#background-text {
+
+    text-align: center;
+    color: seashell;
+    background-color: black;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: .9;
+}
+
+#background-text h4 {
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container h2, h3 {
+    color: snow; 
+    font-family: helvetica ;
+
+}
+
+.container h2 {
+    font-size: 20px;
+}
+
+.container h3 {
+    font-size: 17px;
+}
+
+.images {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image p {
+    font-family: helvetica;
+    color: snow;
+    font-size: 16px;
+}
+
+.image {
+    padding: 10px;
+}
+
+.locations {
+    
+    margin: 0 20px;
+    background-image: url("./images/img-locations-background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.locations h2 {
+    font-family: helvetica ;
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 10px auto ;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around ;
+    justify-content: space-around;
+}
+
+.location {
+    background-color: black;
+    width : 300px;
+    max-height: 300px;
+    margin: 20px;
+}
+
+.location h3, .location p {
+    color: snow; 
+    font-family: helvetica ;
+}
+
+.contact {
+    text-align: center;
+    color: snow;
+    font-family: Helvetica;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: left;
+    color: snow;
+    font-size:16px;
+}
