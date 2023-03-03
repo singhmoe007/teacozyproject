@@ -42,7 +42,7 @@ body {
 .mission {
     height: 700px;
     width: 1200px;
-    background: url("./images/img-mission-background.jpg");
+    background: url("img-mission-background.jpg");
     background-size: cover;
     margin: 0 auto;
     display: flex;
@@ -113,7 +113,7 @@ body {
 .locations {
     
     margin: 0 20px;
-    background-image: url("./images/img-locations-background.jpg");
+    background-image: url("img-locations-background.jpg");
     background-size: cover;
     text-align: center;
 }
