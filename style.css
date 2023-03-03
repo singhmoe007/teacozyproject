@@ -111,7 +111,7 @@ body {
 }
 
 .locations {
-    
+    min-height:500px;
     margin: 0 20px;
     background-image: url("img-locations-background.jpg");
     background-size: cover;
